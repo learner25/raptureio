@@ -5,7 +5,7 @@ import * as THREE from "three";
 
 export default function FBXModel({ visible = true }) {
   const group = useRef();
-  const fbx = useFBX("/src/models/t-1/tripo_convert_char.fbx");
+  const fbx = useFBX("./models/t-1/tripo_convert_char.fbx");
 
   useEffect(() => {
     // Apply materials and shadows
