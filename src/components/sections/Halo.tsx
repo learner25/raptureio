@@ -15,7 +15,7 @@ import SubsectionScroll from "../SubsectionScroll";
 function TripoModel({ position = [-2, -0.5, 0], visible = true }) {
   const group = useRef();
   const { scene, animations } = useGLTF(
-    "/src/models/t-1/tripo_convert_bb9794ad-fd9a-4879-84c1-be11c58f9704_idle_embedded.gltf",
+    "./models/t-1/tripo_convert_bb9794ad-fd9a-4879-84c1-be11c58f9704_idle_embedded.gltf",
   );
   const { actions, mixer } = useAnimations(animations, group);
 
@@ -73,7 +73,7 @@ function SceneController({ activeSubsection }) {
 
 function Fox({ visible = true }) {
   const group = useRef();
-  const fbx = useFBX("/src/models/t-1/tripo_convert_char.fbx");
+  const fbx = useFBX("./models/t-1/tripo_convert_char.fbx");
 
   useEffect(() => {
     // Apply materials and shadows
@@ -107,7 +107,7 @@ function Fox({ visible = true }) {
 function TripoModelT1() {
   const group = useRef();
   const { scene, animations } = useGLTF(
-    "/src/models/t-1/tripo_convert_bb9794ad-fd9a-4879-84c1-be11c58f9704_idle_embedded.gltf",
+    "./models/t-1/tripo_convert_bb9794ad-fd9a-4879-84c1-be11c58f9704_idle_embedded.gltf",
   );
   const { actions, mixer } = useAnimations(animations, group);
 

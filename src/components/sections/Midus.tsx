@@ -78,7 +78,7 @@ export default function Midus() {
         <directionalLight position={[-5, 5, 5]} intensity={1} castShadow />
 
         {/* GLTF Model */}
-        <GLTFModel url="/src/models/t-4/expld.glb" />
+        <GLTFModel url="./models/t-4/expld.glb" />
 
         <OrbitControls enableZoom={false} autoRotate={false} enablePan={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 3} />
       </Canvas>
