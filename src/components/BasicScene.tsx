@@ -26,7 +26,7 @@ export default function BasicScene() {
                 <div className="w-3 h-3 bg-white" />
               </div>
               <p className="text-white text-sm uppercase tracking-wider">
-                Create and mint your NFT
+               Developed by Saimon Islam
               </p>
             </div>
           </div>
